@@ -30,9 +30,18 @@ header {
 
 
 }
+/*descendant a of header*/
+header a {
+    text-decoration: none;
+/*inherit from body */
+    color: inherit;
+}
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:2px ;
+    color: #252525; ;
 }
 
 /*main*/
