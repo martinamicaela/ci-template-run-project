@@ -7,7 +7,8 @@
     box-sizing:border-box ;
  }
  /* General styles*/
- body {min-height: 100vh;
+ body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /*General project styles*/
@@ -100,7 +101,12 @@ footer {background-color:orange ;}
     box-shadow:none;
     width:fit-content;
     padding-right: 1rem;
-
+}
+#menu { 
+    display:flex;
+}
+#menu > li {
+    padding-left:1rem;
 }
 }
     
