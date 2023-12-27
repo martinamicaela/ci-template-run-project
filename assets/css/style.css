@@ -17,7 +17,18 @@
 }
 /*header*/
 header {
-    background-color:lightcoral;
+    background-color:#ffffff;
+    /* padding left and right*/
+    padding: 0 1rem;
+    position: fixed;
+    z-index:99;
+    width: 100%;
+    /*manadory values: horizontal offset, neg (left) pos (right)
+    vertical offset: POS (display shadow below the element) NEG (display shadow above the element)
+    3rd value sets the blur (how soft or hard the shadow) */
+    box-shadow: 0 2px 2px #3a3a3a ;
+
+
 }
 
 h1 {
